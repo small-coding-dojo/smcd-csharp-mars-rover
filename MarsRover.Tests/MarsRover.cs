@@ -17,6 +17,10 @@ public class MarsRover
             if(c.ToString().ToUpperInvariant() == "M")
             {
                 Position[1]++;
+                if (Position[1] == 10)
+                {
+                    Position[1] = 0;
+                }
             }
         }
         return $"{Position[0]}:{Position[1]}:N";
