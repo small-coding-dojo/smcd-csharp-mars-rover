@@ -1,7 +1,7 @@
 ﻿
 namespace MarsRover.Tests;
 
-public class UnitTest1
+public class MarsRoverTest
 {
     [Fact]
     public void Test1()
@@ -13,13 +13,5 @@ public class UnitTest1
         var actual = rover.input(input);
 
         Assert.Equal(expected, actual);
-    }
-}
-
-public class MarsRover
-{
-    public string input(string input)
-    {
-        return "0:0:N";
     }
 }
