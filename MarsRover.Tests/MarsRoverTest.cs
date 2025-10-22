@@ -50,4 +50,15 @@ public class MarsRoverTest
 
         Assert.Equal(expected, actual);
     }
+    [Fact]
+    public void Given1TurnRightCommand_TheRoverPointsEast()
+    {
+        var input = "R";
+        var expected = "0:0:E";
+
+        var rover = new MarsRover();
+        var actual = rover.Input(input);
+
+        Assert.Equal(expected, actual);
+    }
 }
