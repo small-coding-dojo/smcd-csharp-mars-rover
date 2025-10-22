@@ -1,5 +1,7 @@
 This is the starting point for the Mars Rover Kata in dotnet 10
 
+Prerequisites: Installed Plugin "Devcontainers" from Marketplace in Visual Studio Code
+
 We are using devcontainers.
 Devcontainer configuration is checked into source control.
 Command in VS Code to connect to Dev Container: 
@@ -8,6 +10,8 @@ Command in VS Code to connect to Dev Container:
 # Cmd Shift P in Mac
 Dev Containers: Reopen in Container
 ```
+
+Please make sure, that "mob moo" inside the console of the container delivers the output "moo"
 
 The base of this kata is: https://www.codurance.com/katas/mars-rover
 
