@@ -1,10 +1,12 @@
-This is the starting point for the Mars Rover Kata in dotnet 10
+This is the starting point for the Mars Rover Kata in dotnet 8
 
-Prerequisites: Installed Plugin "Devcontainers" from Marketplace in Visual Studio Code
+## Optional: Use a DevContainer
 
-We are using devcontainers.
+Install Plugin "Devcontainers" from Marketplace in Visual Studio Code
+
 Devcontainer configuration is checked into source control.
 Command in VS Code to connect to Dev Container: 
+
 ```
 # Strg Shift P in Windows
 # Cmd Shift P in Mac
