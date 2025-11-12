@@ -16,12 +16,11 @@ public class MarsRover
 
     public string Input(string input)
     {
+        // var move = moveStrategySelector.by(Orientation);
+
         foreach (var c in input)
         {
-            if (c.ToString().ToUpperInvariant() == "R")
-            {
-                Orientation = Orientations.EAST;
-            }
+            ChangeOrientation(c);
             if (c.ToString().ToUpperInvariant() == "M")
             {
                 var V = Orientation == Orientations.NORTH ? 1 : 0;
@@ -34,5 +33,13 @@ public class MarsRover
         }
         var OrientationCharacter = Orientation == Orientations.NORTH ? 'N' : 'E';
         return $"{Position[0]}:{Position[1]}:{OrientationCharacter}";
+    }
+
+    private void ChangeOrientation(char c)
+    {
+        if (c.ToString().ToUpperInvariant() == "R")
+        {
+            Orientation = Orientations.EAST;
+        }
     }
 }
