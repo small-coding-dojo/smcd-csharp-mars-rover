@@ -60,5 +60,7 @@ public class MarsRoverTest
         var actual = rover.Input(input);
 
         Assert.Equal(expected, actual);
+
+        Assert.Equal("1:0:E", rover.Input("M"));
     }
 }

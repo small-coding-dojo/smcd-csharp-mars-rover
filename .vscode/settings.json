@@ -6,5 +6,7 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         ".mule": true
-    }
+    },
+    "dotnet.completion.showNameCompletionSuggestions": false,
+    "dotnet.completion.triggerCompletionInArgumentLists": false
 }
